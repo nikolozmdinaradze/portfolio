@@ -71,6 +71,12 @@ header{
     align-items: center;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .border{
     padding: 5px;
     border-radius: 250px;
@@ -83,6 +89,18 @@ header{
     border-radius: 400px;
 
 }
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.contacts a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    padding-top: 15px;
+    font-size: 21px;
+}
+
 
 .text{
     direction: rtl;
