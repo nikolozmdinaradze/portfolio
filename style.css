@@ -9,6 +9,9 @@ background-color: #152950; */
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+}
 .body1{
     height: 100%;
     background: linear-gradient(to right, white 40%, #152950 40%);
@@ -22,7 +25,7 @@ header{
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 20px;
     width: 100%;
 }
 
@@ -111,10 +114,10 @@ header{
     width: 50%;
 }
 .text h1{
-    font-size: 3em;
+    font-size: 36px;
 }
 .text h2{
-    font-size: 2em;
+    font-size: 21px;
     color: #437ef5;
 }
 .text p{
@@ -185,14 +188,25 @@ header{
 
     }
     .text *{
-        padding: 30px 0px;
+        padding: 20px 0px;
+    }
+    .text h1{
+        font-size: 26px;
     }
     .socials{
         position: static;
         display: flex;
-        justify-content: center;
+        justify-content:flex-end;
         padding-top: 20px;
         gap: 20px;
+        background-color: white;
+    }
+    .contacts{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 0px 5px;
     }
     
   }
@@ -205,5 +219,15 @@ header{
     .text{
         width: 80%;
     }
-
+    .socials{
+        background-color: transparent;
+        padding-bottom: 100px;
+        justify-content: center;
+    }
+    .contacts{
+        background-color: white;
+    }
+    .contacts a{
+        font-size: 18px;
+    }
   }
